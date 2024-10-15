@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@latest/dist/locomotive-scroll.min.js"></script>
+</head>
+<body data-scroll-container>
+
+    <!-- Gallery Section -->
+    <section id="gallery" data-scroll-section>
+        <div class="gallery-container">
+            <!-- Images will be added dynamically with JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" data-scroll-section>
+        <div class="about-container">
+            <img src="assets/images/about/about-me.jpg" alt="About Me Image" />
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis varius tortor.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Links to Other Galleries Section -->
+    <section id="galleries" data-scroll-section>
+        <div class="galleries-container">
+            <h2>More Galleries</h2>
+            <div class="gallery-links">
+                <div class="gallery-link">
+                    <a href="other-gallery1.html">Gallery 1</a>
+                </div>
+                <div class="gallery-link">
+                    <a href="other-gallery2.html">Gallery 2</a>
+                </div>
+                <!-- Add more links as needed -->
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

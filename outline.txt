@@ -3,3 +3,9 @@ Starting page with small gallery of best photos
 scroll into about alexis, what she offers, and contact info
 
 scroll into more photos section with folders
+
+
+
+https://starter-kit-nuxt-locomotive-scroll.netlify.app/
+https://css-tricks.com/how-to-use-the-locomotive-scroll-for-all-kinds-of-scrolling-effects/
+https://www.reddit.com/r/web_design/comments/198ph50/how_do_you_make_fancy_websites_like_these_with/
